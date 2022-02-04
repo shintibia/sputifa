@@ -11,85 +11,47 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <title>Sputifa</title>
 </head>
-<body> 
-    
+<body>
     <div class="music-container">
         <div class="music-info">
-            <h4 id="title"><span class="">Xin mot lan ngoai le - Hi anh trai</span></h4>
+            <h4 id="title"><span></span></h4>
             <div id="list">
                 <i class="fas fa-list"></i>
             </div>
-            <div class="progress-container">
-                <div class="progress"></div>
-            </div>
         </div>
-        <audio controls autoplay>
-            <source src="./data/Song/Xin Một Lần Ngoại Lệ  Keyo  Hianhtrai.mp3" type="audio/mpeg">
-        </audio>
+        <audio src="" type="audio/mpeg" id="audio"></audio>
         <div class="img-container">
-            <img src="./data/Imgs/pock pock.png" alt="music-cover" id="cover">
+            <img src="" alt="music-cover" id="cover">
         </div>
         <!-- Control -->
+        <div class="progress-container">
+            <div class="progress"></div>
+        </div>
+
         <div class="navigation">
-            <button id="prev" class="action-btn">
+            <button id="shuffle" class="action-btn">
                 <i class="fas fa-random"></i>
             </button>
             <button id="prev" class="action-btn">
                 <i class="fas fa-backward"></i>
             </button>
-            <button id="play" class="action-btn action-btn-big">
+            <button id="play" class="action-btn-big">
                 <i class="fas fa-play"></i>
             </button>
             <button id="next" class="action-btn">
                 <i class="fas fa-forward"></i>
             </button>
-            <button id="prev" class="action-btn">
+            <button id="repeat" class="action-btn">
                 <i class="fas fa-redo"></i>
             </button>
         </div>
         <!-- songs List -->
         <div class="songs-container" style="display: none">
-            <div class="song">
-                <h5 class="song-name">Song 1</h5>
-                <p class="song-artist">JB</p>
-            </div>
-            <div class="song">
-                <h5 class="song-name">Song 2</h5>
-                <p class="song-artist">JB</p>
-            </div>
-            <div class="song">
-                <h5 class="song-name">Song 3</h5>
-                <p class="song-artist">JB</p>
-            </div>
-            <div class="song">
-                <h5 class="song-name">Song 3</h5>
-                <p class="song-artist">JB</p>
-            </div>
-            <div class="song">
-                <h5 class="song-name">Song 3</h5>
-                <p class="song-artist">JB</p>
-            </div>
-            <div class="song">
-                <h5 class="song-name">Song 3</h5>
-                <p class="song-artist">JB</p>
-            </div>
-            <div class="song">
-                <h5 class="song-name">Song 3</h5>
-                <p class="song-artist">JB</p>
-            </div>
-            <div class="song">
-                <h5 class="song-name">Song 3</h5>
-                <p class="song-artist">JB</p>
-            </div>
-            <div class="song">
-                <h5 class="song-name">Song 3</h5>
-                <p class="song-artist">JB</p>
-            </div>
-            <div class="song">
-                <h5 class="song-name">Song 3</h5>
-                <p class="song-artist">JB</p>
-            </div>
-
+            <!-- <div class="song">
+                <h5 class="song-name"></h5>
+                <p class="song-artist"></p>
+            </div> -->
+            
         </div>
     </div>
 
