@@ -78,6 +78,7 @@ body {
     padding: 1rem;
     cursor: pointer;
     outline: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .action-btn:hover, .action-btn-big:hover {
@@ -89,6 +90,7 @@ body {
     border:0;
     cursor: pointer;
     outline: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .action-btn-big i {
@@ -145,10 +147,11 @@ body {
     padding: 0.5rem;
     cursor: pointer;
     border-radius: 0.5rem;
+    -webkit-tap-highlight-color: transparent;
 }
 
 #list:active {
-    background-color: #ccc;
+    background:none;
     animation: smooth ease .4s;
 }
 
@@ -250,6 +253,7 @@ body {
 .active {
     color:#fe8daa;
 }
+
 
 @keyframes dive-in {
     from {
