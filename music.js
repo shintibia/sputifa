@@ -27,70 +27,70 @@ const songs = [
     {
         name: 'Summer Time',
         artist: 'Jarico',
-        path: './data/Song/01 Jarico - Summer Time.mp3',
+        path: 'https://docs.google.com/uc?export=download&id=1EhrYGrrVAtX_lnfYToPI7ZKW1zw7cFiy',
         img: './data/Imgs/Summer Time - Jarico.jpg'
     },
 
     {
         name: 'Xin Mot Lan Ngoai Le',
         artist: 'Hi Anh Trai',
-        path: './data/Song/Xin Một Lần Ngoại Lệ  Keyo  Hianhtrai.mp3',
+        path: 'https://docs.google.com/uc?export=download&id=1TSM_owq5VxLWPMgJGTHufcIIGqzOiOwx',
         img: './data/Imgs/xin 1 lan ngoai le.jpg'
     },
 
     {
         name: 'Careless Whisper',
         artist: 'George Micheal',
-        path: './data/Song/y2mate.com - George Michael  Careless Whisper Official Video.mp3',
+        path: 'https://docs.google.com/uc?export=download&id=109TIIlwaTnZhxsv6WNV7opv7vuFffyVd',
         img: './data/Imgs/careless whisper.jpg'
     },
 
     {
         name: 'Nam Son Nam Dang (Slowed)',
         artist: 'นำแดงนำสม',
-        path: './data/Song/y2mate.com - Jarvis  นำแดงนำสม Nam DANG NAM SOM  slowed  reverb .mp3',
+        path: 'https://docs.google.com/uc?export=download&id=1k8Ck9pzuWPOlckQ3aY-CT-u7S82qTdW9',
         img: './data/Imgs/nam dang.jpg'
     },
 
     {
         name: 'Loved By You',
         artist: 'Justin Bieber',
-        path: './data/Song/y2mate.com - Justin Bieber  Loved By You Visualizer ft Burna Boy.mp3',
+        path: 'https://docs.google.com/uc?export=download&id=1_mrqOxseqxijvurDcYL-GjShPgVGSoNs',
         img: './data/Imgs/loved by you.jpg'
     },
 
     {
         name: 'Wavin\' Flag Cocacola Celebration Mix',
         artist: 'KNAAN',
-        path: './data/Song/y2mate.com - KNAAN  Wavin Flag CocaCola Celebration Mix.mp3',
+        path: 'https://docs.google.com/uc?export=download&id=1YlI9dlJzhG0GhQ75_YgR4yPSxsKHXeRd',
         img: './data/Imgs/wavin flag.jpg'
     },
 
     {
         name: 'NUEST뉴이스트',
         artist: 'FACE',
-        path: './data/Song/y2mate.com - MV NUEST뉴이스트  FACE페이스.mp3',
+        path: 'https://docs.google.com/uc?export=download&id=1-H5bOIYLBUQTcDRLd66rzY3r64q189A1',
         img: './data/Imgs/face nuest.jpeg'
     },
 
     {
         name: 'Thà Giết Người Yêu',
         artist: 'Trường Vũ',
-        path: './data/Song/y2mate.com - Thà Giết Người Yêu.mp3',
+        path: 'https://docs.google.com/uc?export=download&id=1Q_xT-ohjRBlGnts2y3xjGlOIwNZTXQ52',
         img: './data/Imgs/truo9ng vu.jpg'
     },
 
     {
         name: 'Legend',
         artist: 'The score',
-        path: './data/Song/y2mate.com - The Score  Legend Audio.mp3',
+        path: 'https://docs.google.com/uc?export=download&id=1PlicNwaM9LfRJ6BOVPih3PIfh2zPXKEc',
         img: './data/Imgs/legend.jpg'
     },
 
     {
         name: 'Lose Yourself',
         artist: 'Eminem',
-        path: './data/Song/y2mate.com - Eminem  Lose Yourself HD.mp3',
+        path: 'https://docs.google.com/uc?export=download&id=1PUS89PS2tPLgZULoLGq5Lq0huIm_FItq',
         img: './data/Imgs/lose youself.jpg'
     }
 ]
